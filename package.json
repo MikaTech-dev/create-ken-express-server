@@ -1,0 +1,26 @@
+{
+  "name": "create-ken-express-server",
+  "version": "1.0.0",
+  "description": "Express server generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikaTech-dev/create-ken-express-server.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-ken-express-server": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "generator"
+  ],
+  "author": "K3n",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
