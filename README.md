@@ -5,7 +5,7 @@ A simple Express.js server generator by ken for ken.
 ## Usage
 
 ```bash
-npm init ken-express-server [directory]
+npm init ken-express-server [directory] # "." works for root directory.
 ```
 
 This will create a new Express.js project with the following structure:
@@ -23,10 +23,13 @@ The generator code lives in the repo root, and the generated app template is und
 ## Features
 
 - Express.js server
-- Morgan for logging
+- Morgan for logging requests
 - Log4js for advanced logging
 - Dotenv for environment variables
+- Nodemon for automatic server restarts
+- Testing suite/route testing with Jest & Supertest
 - Custom response middleware
+- Main Route file
 
 ## Getting Started
 
