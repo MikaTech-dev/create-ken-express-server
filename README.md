@@ -1,6 +1,6 @@
 # create-ken-express-server
 
-A simple Express.js server generator by ken for ken.
+A simple Express.js server generator.
 
 ## Usage
 
